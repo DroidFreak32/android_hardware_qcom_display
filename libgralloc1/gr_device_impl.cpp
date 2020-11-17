@@ -432,7 +432,6 @@ gralloc1_error_t GrallocImpl::LockBuffer(gralloc1_device_t *device, buffer_handl
   return status;
 }
 
-<<<<<<< HEAD
 /*  TODO(user) : LOCK_YCBCR changed to LOCK_FLEX but structure definition is not known yet.
  *  Need to implement after clarification from Google.
 gralloc1_error_t GrallocImpl::LockYCbCrBuffer(gralloc1_device_t* device, buffer_handle_t buffer,
